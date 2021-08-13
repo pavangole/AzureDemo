@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: pavangole
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A95DA51E33D6464281F563DC3587B01B }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4256CD04A8D445E5A2FBA75E8D852285 }}
 
