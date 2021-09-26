@@ -14,4 +14,3 @@ function addElement () {
   // add the text node to the newly created div
   main.appendChild(newContent)
 }
-    

@@ -1,8 +1,27 @@
+.header {
+    background-image: url(https://images.unsplash.com/photo-1630980260348-16f484cb6471?ixid=MnwxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8&ixlib=rb-1.2.1&dpr=2&auto=format%2Ccompress&fit=crop&w=999&h=594);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 15px ;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.header-text {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    font-family: gluten;
+    font-weight: 1000  ;
+    font-size: 3em;
+}
 .frist {
     align-self: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(325px,1fr));
-    grid-template-rows:  repeat(auto-fill,250px) ;
+    grid-template-rows: repeat(auto-fill,250px) ;
+    grid-auto-flow: row;
     gap: 3rem   ;
 }
 
@@ -24,6 +43,7 @@ body {
     background-color: #262626;
 }
 img {
+    position: relative;;
     width: 100%;
     height: 100%;   
 }
