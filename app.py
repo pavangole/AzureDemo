@@ -5,5 +5,5 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 if __name__== "__main__":
-    app.run("0.0.0.0","8080")
+    app.run("0.0.0.0","80")
 
